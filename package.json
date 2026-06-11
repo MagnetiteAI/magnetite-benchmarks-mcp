@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MagnetiteAI/magnetite-benchmarks-mcp"
+    "url": "git+https://github.com/MagnetiteAI/magnetite-benchmarks-mcp.git"
   },
   "homepage": "https://magnetite.ai/proof-index",
   "keywords": [
