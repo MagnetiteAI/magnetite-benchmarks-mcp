@@ -1,0 +1,40 @@
+{
+  "name": "magnetite-benchmarks-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for LinkedIn Thought Leader Ads benchmarks and The Proof Index, the open datasets from Magnetite (magnetite.ai), the Proof Engine.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "magnetite-benchmarks-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "smoke": "node test/smoke.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MagnetiteAI/magnetite-benchmarks-mcp"
+  },
+  "homepage": "https://magnetite.ai/proof-index",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "linkedin",
+    "thought-leader-ads",
+    "benchmarks",
+    "b2b-marketing",
+    "magnetite"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
