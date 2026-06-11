@@ -18,10 +18,12 @@ Tools fetch the live endpoints (`magnetite.ai/thought-leader-ads-benchmarks.json
 
 ## Install
 
+Published on npm as [magnetite-benchmarks-mcp](https://www.npmjs.com/package/magnetite-benchmarks-mcp).
+
 Claude Code:
 
 ```bash
-claude mcp add magnetite-benchmarks -- npx -y github:MagnetiteAI/magnetite-benchmarks-mcp
+claude mcp add magnetite-benchmarks -- npx -y magnetite-benchmarks-mcp
 ```
 
 Claude Desktop (`claude_desktop_config.json`) or any MCP client:
@@ -31,7 +33,7 @@ Claude Desktop (`claude_desktop_config.json`) or any MCP client:
   "mcpServers": {
     "magnetite-benchmarks": {
       "command": "npx",
-      "args": ["-y", "github:MagnetiteAI/magnetite-benchmarks-mcp"]
+      "args": ["-y", "magnetite-benchmarks-mcp"]
     }
   }
 }
